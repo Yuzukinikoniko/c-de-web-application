@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>add.html</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header__inner">
+        <div class="home"><a href="/">SHOW</a></div>
+        <div classs="add"><a href="add.html">ADD</a></div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="main__inner">
+        <h1>追加する情報を入力してください</h1>
+        <div class="form">
+          <form action="/" method="POST">
+            <p>名前を入力してください</p>
+            <input type="text" name="name" class="name"/>
+            <p>学籍番号を入力してください</p>
+            <input type="text" name="number" class="number"/>
+            <p>年齢を入力してください</p>
+            <input type="number" name="age" class="age" />
+            <div class="btn">
+              <input type="button" value="送信" onclick="buttonClick()"/>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="add.js"></script>
+  </body>
+</html>
