@@ -1,6 +1,3 @@
-//構造体じゃなくてポインタのポインタを使ってみる
-//ロックを考える方
-//最終の方
 #include <stdio.h>
 #include <string.h>
 #include <sys/types.h>
